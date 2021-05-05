@@ -7,6 +7,7 @@
     <Description>Data models for SVG serialization</Description>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>MDD4All_Github.snk</AssemblyOriginatorKeyFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
