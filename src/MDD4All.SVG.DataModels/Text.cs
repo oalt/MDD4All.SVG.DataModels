@@ -28,6 +28,12 @@ namespace MDD4All.SVG.DataModels
         [XmlAttribute("font-weight")]
         public string FontWeight { get; set; }
 
+        [XmlAttribute("font-style")]
+        public string FontStyle { get; set; }
+
+        [XmlAttribute("font-color")]
+        public string FontColor { get; set; }
+
         [XmlText]
         public string DisplayedText { get; set; }
 

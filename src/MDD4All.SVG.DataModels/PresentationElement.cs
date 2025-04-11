@@ -1,8 +1,6 @@
 ﻿/*
  * Copyright (c) MDD4All.de, Dr. Oliver Alt
  */
-using MDD4All.SVG.DataModels.Extensions;
-using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace MDD4All.SVG.DataModels
@@ -37,5 +35,11 @@ namespace MDD4All.SVG.DataModels
 
         [XmlAttribute("stroke-dasharray")]
         public string StrokeDashArray { get; set; }
+
+        [XmlAttribute("class")]
+        public string CssClass { get; set; }
+
+        [XmlAttribute("style")]
+        public string CssStyle { get; set; }
     }
 }

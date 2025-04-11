@@ -6,6 +6,7 @@ using System.Xml.Serialization;
 
 namespace MDD4All.SVG.DataModels
 {
+    [XmlType(TypeName = "rect")]
     public class Rectangle : SvgElement
     {
         [XmlAttribute("x")]
